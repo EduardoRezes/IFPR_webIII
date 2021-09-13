@@ -20,7 +20,7 @@ public class AppServletcabe extends HttpServlet{
 		//user-agent
 		String userAgent = req.getHeader("user-agent");
 		//acept-encoding
-		String acepptEncoding = req.getHeader("acept-encoding");
+		String acepptEncoding = req.getHeader("accept-encoding");
 		//accept-language
 		String aceptLanguage = req.getHeader("accept-language");
 				
